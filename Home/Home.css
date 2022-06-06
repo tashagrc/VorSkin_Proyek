@@ -102,6 +102,11 @@ nav #navbar li a:hover {
   transition: 0.3 ease;
 }
 
+nav #navbar a.active{
+  color: #76A2CB;
+  transition: 0.3 ease;
+}
+
 /*check best product*/
 #line{
   position: relative;

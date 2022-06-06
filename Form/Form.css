@@ -1,0 +1,106 @@
+/*general*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('http://fonts.cdnfonts.com/css/avenir-next-lt-pro');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Quicksand';
+  color: #000000;
+}
+
+/*login*/
+
+#vorskin{
+    font-family: 'Avenir Next LT Pro';
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+
+#login{
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url('../Images/login-background.png');
+    height: 725px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+.login-container{
+    max-width: 952px;
+    width: 100%;
+    background: rgba(253, 253, 253, 0.5);
+    padding-top: 26px;
+    padding-left: 234px;
+    padding-right: 233px;
+    padding-bottom: 83px;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.login-container img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.user-details .input-container {
+    margin-bottom: 20px;
+}
+
+.user-details .input-container label{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.user-details .input-container input{
+    width: 485px;
+    height: 44px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+form .btn input{
+    display: grid;
+    margin: auto;
+    width: 186px;
+    height: 49px;
+    outline: none;
+    background-color: #76A2CB;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+form .btn input:hover{
+    background-color: #41617D;
+}
+
+.login-container p{
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+}
+
+.login-container a{
+    text-decoration: none;
+    color: #346AD2;
+}
+
+
+
+
