@@ -1,0 +1,248 @@
+/*general*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('http://fonts.cdnfonts.com/css/avenir-next-lt-pro');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Quicksand';
+  color: #000000;
+}
+
+/*navbar*/
+header{
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.navbar-container{
+  width: 100%;
+  background-color: #FDFDFA;
+}
+
+#header-up{
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*title vorskin*/
+#header-up #vorskin{
+  font-family: 'Avenir Next LT Pro';
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  margin-left: 45%;
+} 
+
+/*link login dan subscribe*/
+#header-up #account{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 5%;
+}
+
+#header-up #account li{
+  display: inline-block;
+  padding: 0 10px;
+  list-style: none;
+  margin: 20px;
+}
+
+#header-up #account li a{
+  text-decoration: none;
+  color:#2F2F2F;
+  transition: 0.3s ease;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  transition: 0.3 ease;
+}
+
+#header-up #account li a:hover {
+  color: #76A2CB;
+}
+
+/*navbar di bawah*/
+nav #navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  list-style: none;
+}
+
+nav #navbar li{
+  display: inline-block;
+  padding: 0 10px;
+  list-style: none;
+  margin: 20px;
+}
+
+nav #navbar li a{
+  text-decoration: none;
+  color:#2F2F2F;
+  transition: 0.3s ease;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+nav #navbar li a:hover {
+  color: #76A2CB;
+  transition: 0.3 ease;
+}
+
+/*check best product*/
+#line{
+  position: relative;
+  background-color: #000000;
+  color:#ffffff;
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+/*slide show*/
+
+#slide-home {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+.img-slide{
+    width:100%;
+    object-fit: contain;
+}
+
+.slides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/*content*/
+.content{
+  background-color: red;
+  margin-bottom: 100000px;
+}
+
+/*footer*/
+
+footer{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+  background-color: #000000;
+  color: #ffffff;
+  padding-top: 129px;
+  padding-left: 103px;
+}
+
+.container{
+  display: flex;
+}
+
+footer #brand {
+  flex-grow: 1;
+  flex-basis: 90%;
+  padding-right: 200px;
+}
+
+footer #explore{
+  flex-grow: 1;
+  flex-basis: 60%;
+}
+
+footer #contact{
+  flex-grow: 1;
+  flex-basis: 60%;
+}
+
+footer #brand h1{
+  font-family: 'Avenir Next LT Pro';
+  font-size: 36px;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+
+footer h1{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 50px;
+}
+
+footer p {
+  line-height: 25px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer ul li {
+  line-height: 50px;
+}
+
+footer ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 24px;
+  transition: 0.3s ease;
+}
+
+footer ul li a:hover {
+  color: #76A2CB;
+}
+
+.bold{
+  font-weight: 700;
+}
+
+.copyright{
+  padding-bottom: 30px;
+}
+
