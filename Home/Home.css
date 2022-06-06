@@ -174,7 +174,7 @@ footer{
   margin-bottom: 0;
   background-color: #000000;
   color: #ffffff;
-  padding-top: 129px;
+  padding-top: 60px;
   padding-left: 103px;
 }
 
@@ -207,15 +207,16 @@ footer #brand h1{
 
 footer h1{
   font-weight: 700;
-  font-size: 24px;
-  line-height: 50px;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 15px;
 }
 
 footer p {
   line-height: 25px;
   font-weight: 400;
-  font-size: 24px;
-  line-height: 40px;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 footer ul {
@@ -223,14 +224,14 @@ footer ul {
 }
 
 footer ul li {
-  line-height: 50px;
+  padding-bottom: 10px;
 }
 
 footer ul li a {
   color: #ffffff;
   text-decoration: none;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 16px;
   transition: 0.3s ease;
 }
 
