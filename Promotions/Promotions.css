@@ -1,0 +1,342 @@
+/*general*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('http://fonts.cdnfonts.com/css/avenir-next-lt-pro');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Quicksand';
+  color: #000000;
+}
+
+/*navbar*/
+header{
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.navbar-container{
+  width: 100%;
+  background-color: #FDFDFA;
+}
+
+#header-up{
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*title vorskin*/
+#header-up #vorskin{
+  font-family: 'Avenir Next LT Pro';
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  margin-left: 45%;
+} 
+
+/*link login dan subscribe*/
+#header-up #account{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 5%;
+}
+
+#header-up #account li{
+  display: inline-block;
+  padding: 0 10px;
+  list-style: none;
+  margin: 20px;
+}
+
+#header-up #account li a{
+  text-decoration: none;
+  color:#2F2F2F;
+  transition: 0.3s ease;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  transition: 0.3 ease;
+}
+
+#header-up #account li a:hover {
+  color: #76A2CB;
+}
+
+.margin-promotion #offer{
+  font-family: 'Avenir Next LT Pro';
+  color: #76A2CB;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+} 
+
+/* first promotion  */
+.first #lmon{
+  font-family: 'Montserrat';
+  color : #D2B82E;
+  text-align: left;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 32px;
+}
+
+.first #lemon{
+  font-family: 'Montserrat';
+  text-align: left;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 32px;
+}
+
+.first #upto-lemon{
+  font-family: 'Montserrat';
+  color: #76A2CB;
+  text-align: left;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.first #mini-product{
+  font-size: 20px;
+  font-weight: bold;
+  color: #76A2CB;
+}
+
+button{
+  font-family: 'Montserrat';
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  background: #76A2CB;
+  border-radius: 10px;
+  padding: 12px 20px;
+  border: none;
+}
+
+button:hover{
+  cursor: pointer;
+  background: #41617D;
+}
+
+/* second promotion */
+.second #promo21{
+  font-family: 'Montserrat';
+  color : #C71B1B;
+  text-align: left;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 32px;
+  margin-left: 10%;
+}
+
+.second #promo22{
+  font-family: 'Montserrat';
+  text-align: left;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 32px;
+  margin-left: 10%;
+}
+
+.second #promo23{
+  font-family: 'Montserrat';
+  color: #76A2CB;
+  text-align: left;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  margin-left: 10%;
+}
+
+.second #promo24{
+  font-size: 20px;
+  font-weight: bold;
+  color: #76A2CB;
+  margin-left: 10%;
+}
+
+/* third promotion */
+.first #promo31{
+  font-family: 'Montserrat';
+  text-align: left;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 32px;
+}
+
+.first #promo32{
+  font-family: 'Montserrat';
+  color : #76A2CB;
+  text-align: left;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.first #terms{
+  font-size: 20px;
+  font-weight: bold;
+  color: #76A2CB;
+}
+
+/* fourth promotion  */
+.second #promo41{
+  font-family: 'Montserrat';
+  text-align: left;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 32px;
+  margin-left: 10%;
+}
+
+.second #promo42{
+  font-family: 'Montserrat';
+  text-align: left;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 32px;
+  margin-left: 10%;
+  color: #D2B82E;
+}
+
+.second #promo43{
+  font-size: 20px;
+  font-weight: bold;
+  color: #76A2CB;
+  margin-left: 10%;
+}
+
+
+/*navbar di bawah*/
+nav #navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  list-style: none;
+}
+
+nav #navbar li{
+  display: inline-block;
+  padding: 0 10px;
+  list-style: none;
+  margin: 20px;
+}
+
+nav #navbar li a{
+  text-decoration: none;
+  color:#2F2F2F;
+  transition: 0.3s ease;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+nav #navbar li a:hover {
+  color: #76A2CB;
+  transition: 0.3 ease;
+}
+
+nav #navbar a.active{
+  color: #76A2CB;
+  transition: 0.3 ease;
+}
+
+.content{
+  margin-bottom: 300px;
+}
+
+/*footer*/
+
+footer{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+  background-color: #FDFDFA;
+  color: #000000;
+  padding-top: 60px;
+  padding-left: 103px;
+}
+
+.container{
+  display: flex;
+}
+
+footer #brand {
+  flex-grow: 1;
+  flex-basis: 90%;
+  padding-right: 200px;
+}
+
+footer #explore{
+  flex-grow: 1;
+  flex-basis: 60%;
+}
+
+footer #contact{
+  flex-grow: 1;
+  flex-basis: 60%;
+}
+
+footer #brand h1{
+  font-family: 'Avenir Next LT Pro';
+  font-size: 36px;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+
+footer h1{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+
+footer p {
+  line-height: 25px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer ul li {
+  padding-bottom: 10px;
+}
+
+footer ul li a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+footer ul li a:hover {
+  color: #76A2CB;
+}
+
+.bold{
+  font-weight: 700;
+}
+
+.copyright{
+  padding-bottom: 30px;
+}
