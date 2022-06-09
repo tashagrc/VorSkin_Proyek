@@ -5,41 +5,102 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Vorskin | Subscribe</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='Form.css'>
+    <script src='Form.js'></script>
 </head>
 <body>
-    <h1>VORSKIN</h1>
-    <h3>SUBSCRIPTION</h3>
-    <h5>Already have an Account? <a href="Login.html">Log In</a></h5>
+    <div id="register">
+        <div>
+            <h1 id="vorskin">VORSKIN</h1>
 
-    <form>
-        <label for="fname">First Name</label><br>
-        <input type="text" id="fname" name="fname">
-        <label for="lname">Last Name</label><br>
-        <input type="text" id="lname" name="lname"><br>
-
-        <label for="address">Address</label><br>
-        <input type="text" id="adress" name="address"><br>
-
-        <label for="phone">Phone Number</label><br>
-        <input type="tel" id="phone" name="phone"><br>
-        <label for="email">Email</label><br>
-        <input type="text" id="email" name="email"><br>
-
-        <label for="pwd">Password</label><br>
-        <input type="password" id="pwd" name="pwd">
-        <label for="cpwd">Confirm Password</label><br>
-        <input type="password" id="cpwd" name="cpwd">
-
-        <h5>Preference</h5>
-        <input type="radio" id="skin" name="preference" value="Skin-care">
-        <label for="skin">Skin-care</label><br>
-        <input type="radio" id="body" name="preference" value="Body-care">
-        <label for="body">Body-care</label><br>
-        <input type="submit" value="SUBSCRIBE">
-    </form>
-
-    <h3>Not registered yet? <a href="Register.html">Create an account</a></h3>
+            <div class="container">
+                <div id="subs-title">
+                    <h3>SUBSCRIPTION</h3>
+                    <p>Already have an Account? <a href="Login.html">Log In</a></p>
+                </div>
+                <form>
+                    <div class="user-details">
+                        <div class="column" style="background-color:red">
+                            <div class="input-container">
+                                <label for="fname">First Name</label><br>
+                                <input type="text" id="fname" name="fname">
+                            </div>
+                        </div>
+                        <div class="column" style="background-color:yellow">
+                            <div class="input-container">
+                                <label for="lname">Last Name</label><br>
+                                <input type="text" id="lname" name="lname">
+                            </div>
+                        </div>
+                        <div style="background-color:blue">
+                            <div class="input-container">
+                                <label for="address">Address</label><br>
+                                <input type="text" id="adress" name="address">
+                            </div>
+                        </div>
+                        <div class="column" style="background-color:green">
+                            <div class="input-container">
+                                <label for="phone">Phone Number</label><br>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                        </div>
+                        <div class="column" style="background-color:palevioletred">
+                            <div class="input-container">
+                                <label for="email">Email</label><br>
+                                <input type="text" id="email" name="email">
+                            </div>
+                        </div>
+                        <div class="column" style="background-color:plum">
+                            <div class="input-container">
+                                <label for="pwd">Password</label><br>
+                                <input type="password" id="pwd" name="pwd">
+                            </div>
+                        </div>
+                        <div class="column" style="background-color:brown">
+                            <div class="input-container">
+                                <label for="cpwd">Confirm Password</label><br>
+                                <input type="password" id="cpwd" name="cpwd">
+                            </div>
+                        </div>
+                        
+                        <div class="tick-container">
+                            <h5>Preference</h5>
+                            <div class="radio-option">
+                                <input type="radio" id="skin" name="preference" value="Skin-care">
+                                <label for="skin">Skin-care</label>
+                                <input type="radio" id="body" name="preference" value="Body-care">
+                                <label for="body">Body-care</label>
+                            </div>
+                        </div>
+                        <div class="tick-container">
+                            <h5>*VORSKIN News Subscribe</h5>
+                            <p>Please check the relevant options below if you agree to receive the following marketing materials:</p>
+                            <div class="radio-option">
+                                <input type="radio" id="receive" name="news" value="yes">
+                                <label for="receive">I would like to receive information about goods and services.</label>
+                                <input type="radio" id="notreceive" name="news" value="no">
+                                <label for="notreceive">I do not wish to receive any news or information.</label>
+                            </div>
+                        </div>
+                        <div class="tick-container">
+                            <h5>*Recognition and Approval</h5>
+                            <p>I acknowledge that I have read and understand the Personal Data Protection Policy and agree to the collection and use of my personal data for the purposes set out in the Policy.</p>
+                            <div class="radio-option">
+                                <input type="checkbox" id="terms" name="terms" value="yes">
+                                <label for="terms">I hereby consent to the processing of my Personal Data for the above purposes and receive emails from VORSKIN.</label>
+                            </div>
+                        </div>
+                        <div class="btn">
+                            <input type="submit" value="SUBSCRIBE">
+                        </div>
+                    </div>
+                </form>
+                <h3>Not registered yet? <a href="Register.html">Create an account</a></h3>
+            </div>
+        </div>
+        
+        
+    </div>
+    
 </body>
 </html>

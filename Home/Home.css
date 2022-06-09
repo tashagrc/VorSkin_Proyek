@@ -55,7 +55,7 @@ header{
   display: inline-block;
   padding: 0 10px;
   list-style: none;
-  margin: 20px;
+  margin: 2vh;
 }
 
 #header-up #account li a{
@@ -65,7 +65,6 @@ header{
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
-  transition: 0.3 ease;
 }
 
 #header-up #account li a:hover {
@@ -83,9 +82,9 @@ nav #navbar{
 
 nav #navbar li{
   display: inline-block;
-  padding: 0 10px;
+  padding: 0 1vw;
   list-style: none;
-  margin: 20px;
+  margin: 2vh;
 }
 
 nav #navbar li a{
@@ -179,8 +178,8 @@ footer{
   margin-bottom: 0;
   background-color: #000000;
   color: #ffffff;
-  padding-top: 60px;
-  padding-left: 103px;
+  padding-top: 6vh;
+  padding-left: 10vw;
 }
 
 .container{
@@ -190,7 +189,7 @@ footer{
 footer #brand {
   flex-grow: 1;
   flex-basis: 90%;
-  padding-right: 200px;
+  padding-right: 20vw;
 }
 
 footer #explore{
@@ -207,14 +206,14 @@ footer #brand h1{
   font-family: 'Avenir Next LT Pro';
   font-size: 36px;
   font-weight: 400;
-  padding-bottom: 30px;
+  padding-bottom: 3vh;
 }
 
 footer h1{
   font-weight: 700;
   font-size: 20px;
   line-height: 30px;
-  margin-bottom: 15px;
+  margin-bottom: 2vh;
 }
 
 footer p {
@@ -229,7 +228,7 @@ footer ul {
 }
 
 footer ul li {
-  padding-bottom: 10px;
+  padding-bottom: 2vh;
 }
 
 footer ul li a {
@@ -249,6 +248,6 @@ footer ul li a:hover {
 }
 
 .copyright{
-  padding-bottom: 30px;
+  padding-bottom: 3vh;
 }
 

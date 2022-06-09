@@ -14,7 +14,7 @@ body{
   color: #000000;
 }
 
-/*login*/
+/*login and subscribe general*/
 
 #vorskin{
     font-family: 'Avenir Next LT Pro';
@@ -22,39 +22,32 @@ body{
     font-size: 36px;
     text-align: center;
     color: #ffffff;
-    margin-bottom: 50px;
+    margin-bottom: 5vh;
 }
 
-#login{
-    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url('../Images/login-background.png');
-    height: 725px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    width: 100%;
-}
-
-.login-container{
-    max-width: 952px;
+/*kotak yg ada burem2nya*/
+.container{
+    max-width: 70vw;
     width: 100%;
     background: rgba(253, 253, 253, 0.5);
-    padding-top: 26px;
-    padding-left: 234px;
-    padding-right: 233px;
-    padding-bottom: 83px;
+    padding-top: 3vh;
+    padding-left: 13vw;
+    padding-right: 13vw;
+    padding-bottom: 8vh;
     border-radius: 20px;
     justify-content: center;
 }
 
-.login-container img{
+.container img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 30px;
+    margin-bottom: 4vh;
 }
 
+/*buat kotak input form*/
 .user-details .input-container {
-    margin-bottom: 20px;
+    margin-bottom: 2vh;
 }
 
 .user-details .input-container label{
@@ -62,44 +55,93 @@ body{
     font-size: 16px;
 }
 
-.user-details .input-container input{
-    width: 485px;
-    height: 44px;
-    outline: none;
-    border-radius: 10px;
-    border: none;
-    padding: 10px;
-    font-size: 16px;
-}
-
+/*button*/
 form .btn input{
     display: grid;
     margin: auto;
-    width: 186px;
-    height: 49px;
+    width: 12vw;
+    height: 7vh;
     outline: none;
     background-color: #76A2CB;
     border: none;
     border-radius: 10px;
     color: #ffffff;
-    margin-top: 50px;
-    margin-bottom: 20px;
+    margin-top: 7vh;
+    margin-bottom: 5vh;
 }
 
 form .btn input:hover{
     background-color: #41617D;
 }
 
-.login-container p{
+.container a{
+    text-decoration: none;
+    color: #346AD2;
+}
+
+/*login*/
+
+#login{
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url('../Images/login-background.png');
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+#login .user-details .input-container input{
+    width: 30vw;
+    height: 6vh;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    padding: 1vh;
+    font-size: 16px;
+    margin-top: 1vh;
+}
+
+/*tulisan lain*/
+#login .container p{
     font-weight: 700;
     font-size: 16px;
     text-align: center;
 }
 
-.login-container a{
-    text-decoration: none;
-    color: #346AD2;
+/*register*/
+#register{
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url('../Images/subs-background.png');
+    height: 180vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
 }
+
+/*agar bisa 2 kolom*/
+#register .column{
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+#register .user-details .input-container input{
+    width: 50%;
+    height: 6vh;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    padding: 1vh;
+    font-size: 16px;
+    margin-top: 1vh;
+}
+
+#register .container p{
+    font-weight: 700;
+    font-size: 16px;
+    text-align: left;
+}
+
 
 
 
