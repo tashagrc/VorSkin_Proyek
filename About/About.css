@@ -106,10 +106,6 @@ nav #navbar a.active{
   transition: 0.3 ease;
 }
 
-.content{
-  margin-bottom: 1440px;
-}
-
 .about #title{
     color: #ffffff;
     letter-spacing: -3px;
@@ -119,6 +115,65 @@ nav #navbar a.active{
     text-align: center;
     margin-top: 50px;
     margin-left: 40%;
+}
+
+/* history */
+.history #history-title{
+  font-size: 40px;
+  font-family: 'Montserrat';
+  color: #ffffff;
+  font-weight: bold;
+  margin-left: 12%;
+}
+
+.history #history-isi{
+  font-size: 24px;
+  font-family: 'Quicksand';
+  color: #ffffff;
+  font-weight: lighter;
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+/* our mission */
+.mission #mission-title{
+  font-size: 40px;
+  font-family: 'Montserrat';
+  color: #ffffff;
+  font-weight: bold;
+  margin-left: 12%;
+}
+
+.mission #mission-isi{
+  font-size: 24px;
+  font-family: 'Quicksand';
+  color: #ffffff;
+  font-weight: lighter;
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+/* vision */
+.vision #vision-title{
+  font-size: 40px;
+  font-family: 'Montserrat';
+  color: #ffffff;
+  font-weight: bold;
+  margin-left: 12%;
+}
+
+.vision #vision-isi{
+  text-align: left;
+  font-size: 24px;
+  font-family: 'Quicksand';
+  color: #ffffff;
+  font-weight: lighter;
+  margin-left: 12%;
+  margin-right: 10%;
+}
+
+.content{
+  margin-bottom: 515px;
 }
 
 /*footer*/
