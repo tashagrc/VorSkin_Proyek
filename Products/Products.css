@@ -10,7 +10,7 @@
 }
 
 body{
-  font-family: 'Quicksand';
+  font-family: 'Avenir Next LT Pro';
   color: #000000;
 }
 
@@ -36,13 +36,11 @@ body{
 }
 
 h1{
-  font-family: 'Avenir Next LT Pro';
   font-weight: 700;
   font-size: 40px;
 }
 
 h3{
-  font-family: 'Avenir Next LT Pro';
   font-weight: 400;
   font-size: 32px;
 }
@@ -53,6 +51,15 @@ h3{
 
 .prod{
   text-align: center;
+}
+
+.price{
+  color: #60A0DB;
+}
+
+p{
+  font-weight: 400;
+  font-size: 16px;
 }
 
 
