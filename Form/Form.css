@@ -122,11 +122,13 @@ form .btn input:hover{
 #register .column{
     float: left;
     width: 50%;
-    padding: 10px;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-right: 1vh;
 }
 
 #register .user-details .input-container input{
-    width: 50%;
+    width: 95%;
     height: 6vh;
     outline: none;
     border-radius: 10px;
@@ -137,11 +139,49 @@ form .btn input:hover{
 }
 
 #register .container p{
-    font-weight: 700;
-    font-size: 16px;
     text-align: left;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 1vh;
 }
 
+#register .container h3{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#register .user-details #address .input-container input{
+    width: 97%;
+    height: 6vh;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    padding: 1vh;
+    font-size: 16px;
+    margin-top: 1vh;
+}
+
+#register h5{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 1vh;
+}
+
+#register .tick-container{
+    margin-bottom: 4vh;
+}
+
+#register #subs-title{
+    margin-bottom: 4vh;
+}
+
+#register .tick-container label{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+}
 
 
 
