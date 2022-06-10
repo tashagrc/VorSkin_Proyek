@@ -17,11 +17,42 @@ body{
 .product-container {
     display: grid;
     grid-template-columns: auto auto;
-    gap: 10px;
-    padding: 10px;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    padding-left: 20vw;
+    padding-right: 20vw;
 }
 
 .product-container > div {
-    text-align: center;
-    padding: 20px 0;
-  }
+    margin: auto;
+}
+
+.blue{
+  color: #60A0DB;
+}
+
+.black{
+  color: #000000;
+}
+
+h1{
+  font-family: 'Avenir Next LT Pro';
+  font-weight: 700;
+  font-size: 40px;
+}
+
+h3{
+  font-family: 'Avenir Next LT Pro';
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.title{
+  padding-left: 22vw;
+}
+
+.prod{
+  text-align: center;
+}
+
+
