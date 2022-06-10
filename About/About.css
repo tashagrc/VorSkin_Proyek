@@ -106,19 +106,84 @@ nav #navbar a.active{
   transition: 0.3 ease;
 }
 
-.content{
-  margin-bottom: 1440px;
+body{
+  background-image: url(images/bg.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
 }
 
 .about #title{
     color: #ffffff;
-    letter-spacing: -3px;
-    font-size: 64px;
+    letter-spacing: 0,15vw;
+    font-size: 3.25vw;
     font-weight: bold;
     font-family: 'Montserrat';
-    text-align: center;
-    margin-top: 50px;
-    margin-left: 40%;
+    margin-top: 2,5vw;
+    margin-left: 70vw;
+}
+
+/* history */
+.history #history-title{
+  font-size: 2vw;
+  font-family: 'Montserrat';
+  color: #ffffff;
+  font-weight: bold;
+  margin-left: 12vw;
+}
+
+.history #history-isi{
+  font-size: 1,2vw;
+  font-family: 'Quicksand';
+  color: #ffffff;
+  font-weight: lighter;
+  margin-left: 12vw;
+  margin-right: 12vw;
+}
+
+/* our mission */
+.mission #mission-title{
+  font-size: 2vw;
+  font-family: 'Montserrat';
+  color: #ffffff;
+  font-weight: bold;
+  margin-left: 12vw;
+}
+
+.mission #mission-isi{
+  font-size: 1,2vw;
+  font-family: 'Quicksand';
+  color: #ffffff;
+  font-weight: lighter;
+  margin-left: 12vw;
+  margin-right: 12vw;
+}
+
+/* vision */
+.vision #vision-title{
+  font-size: 2vw;
+  font-family: 'Montserrat';
+  color: #ffffff;
+  font-weight: bold;
+  margin-left: 12vw;
+}
+
+.vision #vision-isi{
+  text-align: left;
+  font-size: 1,2vw;
+  font-family: 'Quicksand';
+  color: #ffffff;
+  font-weight: lighter;
+  margin-left: 12vw;
+  margin-right: 10vw;
+}
+
+.content{
+  margin-bottom: 25.75vw;
 }
 
 /*footer*/
