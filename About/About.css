@@ -107,7 +107,7 @@ nav #navbar a.active{
 }
 
 body{
-  background-image: url(images/bg.png);
+  background-image: url('../Images/about_background.png');
   background-size:cover;
   background-repeat: no-repeat;
 }
