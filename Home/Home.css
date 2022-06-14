@@ -127,12 +127,11 @@ nav #navbar a.active{
   margin-top: 0px;
   text-align: center;
   overflow: hidden;
-  background-color: yellow;
 }
 
 .image-container {
   width: calc(4*100vw);
-  background-color: pink;
+  background-color: #ffffff;
   height: 80vh;
   clear: both;
   position: relative;
