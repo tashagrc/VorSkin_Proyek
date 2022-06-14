@@ -138,6 +138,7 @@ nav #navbar a.active{
   -webkit-animation: slide 20s ease infinite;
 }
 
+/*tulisan di dalam slide*/
 .image-container h1{
   position:absolute;
   z-index: 10;
@@ -145,6 +146,7 @@ nav #navbar a.active{
   left: 0;
 }
 
+/*animasi slide show*/
 @-webkit-keyframes slide {
   20% {margin-left: 0px;}
   30% {margin-left: calc(-1*100vw);}
@@ -166,6 +168,23 @@ nav #navbar a.active{
   padding: 0px;
   position: relative;
 }
+
+/*gambar column dan row*/
+.pict {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+#imgbox1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+#imgbox6 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
 
 /*footer*/
 
