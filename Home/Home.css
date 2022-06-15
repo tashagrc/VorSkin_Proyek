@@ -136,6 +136,7 @@ nav #navbar a.active{
   clear: both;
   position: relative;
   -webkit-animation: slide 20s ease infinite;
+  position: relative;
 }
 
 /*tulisan di dalam slide*/
@@ -169,7 +170,112 @@ nav #navbar a.active{
   position: relative;
 }
 
+/*tulisan di slide show*/
+.text-slide{
+  width: 40%;
+}
+
+.text-slide h1{
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 59px;
+  color: #FFFFFF;
+}
+
+.text-slide p{
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
+.text-slide button{
+  position: relative;
+  background-color: #000000;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+}
+
+/*posisi text per slide*/
+#slide1 {
+  width: 50%;
+  position: absolute;
+  top: 35vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+}
+
+#slide1 h1{
+  position: relative;
+  color: #000000;
+}
+
+#slide1 p{
+  position: relative;
+  color: #000000;
+}
+
+#slide2{
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+#slide2 h1{
+  position: relative;
+}
+
+#slide2 p{
+  position: relative;
+}
+
+#slide3{
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+#slide3 h1{
+  position: relative;
+}
+
+#slide3 p{
+  position: relative;
+}
+
+#slide4{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#slide4 h1{
+  position: relative;
+}
+
+#slide4 p{
+  position: relative;
+}
+
 /*gambar column dan row*/
+#part1{
+  margin: auto;
+  width: 80%;
+  background-color: red;
+}
+
+#part2{
+  margin: auto;
+  width: 90%;
+  background-color: blue;
+}
+
 .pict {
   display: grid;
   grid-template-columns: auto auto;
@@ -184,7 +290,6 @@ nav #navbar a.active{
   grid-column-start: 1;
   grid-column-end: 3;
 }
-
 
 /*footer*/
 
