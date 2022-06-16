@@ -73,6 +73,48 @@ header{
   color: #76A2CB;
 }
 
+/*navbar di bawah*/
+nav #navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  list-style: none;
+}
+
+nav #navbar li{
+  display: inline-block;
+  padding: 0 10px;
+  list-style: none;
+  margin: 20px;
+}
+
+nav #navbar li a{
+  text-decoration: none;
+  color:#2F2F2F;
+  transition: 0.3s ease;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+nav #navbar li a:hover {
+  color: #76A2CB;
+  transition: 0.3 ease;
+}
+
+nav #navbar a.active{
+  color: #76A2CB;
+  transition: 0.3 ease;
+}
+
+/*margin content container*/
+.content{
+  margin-bottom: 50vh;
+  margin-top: 10vh;
+}
+
+/*content / isi promosi*/
 .margin-promotion #offer{
   font-family: 'Avenir Next LT Pro';
   color: #76A2CB;
@@ -133,6 +175,11 @@ button:hover{
   transition: 0.3s ease;
   background: #41617D;
 }
+
+.second button {
+  margin: 0px 10%;
+}
+
 
 /* second promotion */
 .second #promo21{
@@ -222,45 +269,57 @@ button:hover{
   margin-left: 10%;
 }
 
-
-/*navbar di bawah*/
-nav #navbar{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: auto;
-  list-style: none;
+/*margin div*/
+.d1{
+  margin: 225px;
 }
 
-nav #navbar li{
-  display: inline-block;
-  padding: 0 10px;
-  list-style: none;
-  margin: 20px;
+.d2{
+  margin: 190px;
 }
 
-nav #navbar li a{
-  text-decoration: none;
-  color:#2F2F2F;
-  transition: 0.3s ease;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
+.d3{
+  margin: 100px;
 }
 
-nav #navbar li a:hover {
+/*gambar content*/
+.first img{
+  float:left; 
+  margin: 0 30px 4px 0;
+}
+
+.first hr{
+  size: 0;
+  width: 523.02px;
   color: #76A2CB;
-  transition: 0.3 ease;
 }
 
-nav #navbar a.active{
+.second img{
+  float:right; 
+  margin: 70px 0px 0px 0;
+}
+
+.second #hs1{
+  margin: 0px 10%;
+  size: 0;
+  width: 454.02px;
   color: #76A2CB;
-  transition: 0.3 ease;
 }
 
-.content{
-  margin-bottom: 300px;
+.second #hs2{
+  margin: 0px 10%;
+  size: 0;
+  width: 438px;
+  color: #76A2CB;
 }
+
+/*line*/
+#line1{
+  size:0px;
+  width:523.02px;
+  color:#76A2CB;
+}
+
 
 /*footer*/
 
