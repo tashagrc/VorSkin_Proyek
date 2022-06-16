@@ -108,7 +108,7 @@ nav #navbar a.active{
 }
 
 body{
-  background-image: url('../Images/about_background.png');
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../Images/about_background.png');;
   background-size:cover;
   background-repeat: no-repeat;
 }
@@ -164,6 +164,13 @@ img{
   margin-right: 12vw;
 }
 
+.mission img{
+  float:right; 
+  margin: -8vw 10vw 5vw 0.25vw;
+  width :405px;
+  height:393px;
+}
+
 /* vision */
 .vision #vision-title{
   font-size: 2vw;
@@ -183,8 +190,35 @@ img{
   margin-right: 10vw;
 }
 
+.vision img{
+  float:left; 
+  margin: -8vw 3vw 0vw 10vw;
+  max-width:100%;
+  height:auto;
+  width: 356;
+  height: 481;
+}
+
 .content{
-  margin-bottom: 25.75vw;
+  margin-top: 10vh;
+  margin-bottom: 50vh;
+}
+
+/*margin*/
+.d1{
+  margin: 2.5vw;
+}
+
+.d2{
+  margin: 0.5vw;
+}
+
+.d3{
+  margin: 10vw;
+}
+
+.d4{
+  margin:20vw;
 }
 
 /*footer*/
