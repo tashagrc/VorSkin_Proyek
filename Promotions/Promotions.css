@@ -291,7 +291,8 @@ button:hover{
 .first hr{
   size: 0;
   width: 523.02px;
-  color: #76A2CB;
+  border: 0; 
+  border-top: 1px solid #76A2CB;
 }
 
 .second img{
@@ -303,21 +304,24 @@ button:hover{
   margin: 0px 10%;
   size: 0;
   width: 454.02px;
-  color: #76A2CB;
+  border: 0; 
+  border-top: 1px solid #76A2CB;
 }
 
 .second #hs2{
   margin: 0px 10%;
   size: 0;
   width: 438px;
-  color: #76A2CB;
+  border: 0; 
+  border-top: 1px solid #76A2CB;
 }
 
 /*line*/
 #line1{
   size:0px;
   width:523.02px;
-  color:#76A2CB;
+  border: 0; 
+  border-top: 1px solid #76A2CB;
 }
 
 

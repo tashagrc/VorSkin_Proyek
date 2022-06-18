@@ -20,7 +20,7 @@ header{
   top: 0;
   left: 0;
   z-index: 100;
-  width: 100%;
+  width: 100vw;
 }
 
 .navbar-container{
@@ -115,6 +115,7 @@ nav #navbar a.active{
   text-align: center;
   font-weight: 500;
   font-size: 20px;
+  width: 100vw;
 }
 
 /*slide show*/
@@ -125,7 +126,6 @@ nav #navbar a.active{
   margin-left: auto;
   margin-right: auto;
   margin-top: 0px;
-  text-align: center;
   overflow: hidden;
 }
 
@@ -194,20 +194,32 @@ nav #navbar a.active{
 .text-slide button{
   position: relative;
   background-color: #000000;
-  color: white;
   font-size: 16px;
   padding: 12px 24px;
   border: none;
   cursor: pointer;
+  margin-top: 3vh;
+}
+
+.text-slide button a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.text-slide button a:hover{
+  color: #76A2CB;
+  transition: 0.3s ease;
 }
 
 /*posisi text per slide*/
+/*slide 1*/
 #slide1 {
   width: 50%;
   position: absolute;
   top: 35vh;
   left: 50vw;
   transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 #slide1 h1{
@@ -220,10 +232,12 @@ nav #navbar a.active{
   color: #000000;
 }
 
+/*slide 2*/
 #slide2{
   position: absolute;
-  top: 8px;
-  left: 16px;
+  top: 10vh;
+  left: 5vw;
+  text-align: left;
 }
 
 #slide2 h1{
@@ -234,10 +248,12 @@ nav #navbar a.active{
   position: relative;
 }
 
+/*slide 3*/
 #slide3{
   position: absolute;
-  bottom: 8px;
-  left: 16px;
+  bottom: 10vh;
+  left: 5vw;
+  text-align: left;
 }
 
 #slide3 h1{
@@ -253,6 +269,7 @@ nav #navbar a.active{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 #slide4 h1{
@@ -267,13 +284,18 @@ nav #navbar a.active{
 #part1{
   margin: auto;
   width: 80%;
-  background-color: red;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
 }
 
 #part2{
   margin: auto;
   width: 90%;
-  background-color: blue;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+}
+
+#part2 .pict{
   color: #ffffff;
 }
 
@@ -369,6 +391,62 @@ nav #navbar a.active{
   font-size: 24px;
 }
 
+/*align picture yg bawah verticaly*/
+#imgbox2{
+  padding-top: 7vh;
+}
+
+#imgbox3{
+  padding-top: 10vh;
+}
+
+#imgbox5{
+  padding-top: 15vh;
+}
+
+#imgbox6{
+  margin-top: 7vh;
+}
+
+/*judul dari gambar column dan row*/
+.pic-title h1{
+  font-family: 'Avenir Next LT Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+}
+
+#part1 .pic-title h1::after{
+  content: "";
+  display: block;
+  width: 60%;
+  height: 1px;
+  background: #60A0DB;
+  float: right;
+}
+
+.pic-title h3{
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+#part2 .pic-title{
+  text-align: center;
+}
+
+#part2 hr{
+  border-top: 1px solid #76A2CB;
+  width: 40%;
+  margin-left: 40%;
+  size: 0;
+}
+
+.pic-title{
+  margin-bottom: 5vh;
+}
+
 /*footer*/
 
 footer{
@@ -379,6 +457,7 @@ footer{
   color: #000000;
   padding-top: 6vh;
   padding-left: 10vw;
+  width: 100vw;
 }
 
 .container{
