@@ -20,6 +20,7 @@ header{
   top: 0;
   left: 0;
   z-index: 100;
+  width: 100vw;
 }
 
 .navbar-container{
@@ -32,6 +33,8 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
 }
 
 /*title vorskin*/
@@ -40,7 +43,7 @@ header{
   text-align: center;
   font-style: normal;
   font-weight: 400;
-  font-size: 36px;
+  font-size: 3vw;
   margin-left: 45%;
 } 
 
@@ -54,9 +57,9 @@ header{
 
 #header-up #account li{
   display: inline-block;
-  padding: 0 10px;
+  padding: 0 0.8vw;
   list-style: none;
-  margin: 20px;
+  margin: 2vh;
 }
 
 #header-up #account li a{
@@ -65,8 +68,7 @@ header{
   transition: 0.3s ease;
   font-style: normal;
   font-weight: 600;
-  font-size: 20px;
-  transition: 0.3 ease;
+  font-size: 1.2vw;
 }
 
 #header-up #account li a:hover {
@@ -84,9 +86,9 @@ nav #navbar{
 
 nav #navbar li{
   display: inline-block;
-  padding: 0 10px;
+  padding: 0 1vw;
   list-style: none;
-  margin: 20px;
+  margin: 2vh;
 }
 
 nav #navbar li a{
@@ -95,7 +97,7 @@ nav #navbar li a{
   transition: 0.3s ease;
   font-style: normal;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1.4vw;
 }
 
 nav #navbar li a:hover {
@@ -325,16 +327,15 @@ button:hover{
 }
 
 
-/*footer*/
-
 footer{
   display: flex;
   flex-direction: column;
   margin-bottom: 0;
   background-color: #FDFDFA;
   color: #000000;
-  padding-top: 60px;
-  padding-left: 103px;
+  padding-top: 6vh;
+  padding-left: 10vw;
+  width: 100vw;
 }
 
 .container{
@@ -344,7 +345,7 @@ footer{
 footer #brand {
   flex-grow: 1;
   flex-basis: 90%;
-  padding-right: 200px;
+  padding-right: 20vw;
 }
 
 footer #explore{
@@ -359,23 +360,22 @@ footer #contact{
 
 footer #brand h1{
   font-family: 'Avenir Next LT Pro';
-  font-size: 36px;
+  font-size: 3vw;
   font-weight: 400;
-  padding-bottom: 30px;
+  padding-bottom: 3vh;
 }
 
 footer h1{
   font-weight: 700;
-  font-size: 20px;
-  line-height: 30px;
-  margin-bottom: 15px;
+  font-size: 1.7vw;
+  line-height: 2.6vw;
+  margin-bottom: 2vh;
 }
 
 footer p {
-  line-height: 25px;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 1.4vw;
+  line-height: 2.6vw;
 }
 
 footer ul {
@@ -383,14 +383,14 @@ footer ul {
 }
 
 footer ul li {
-  padding-bottom: 10px;
+  padding-bottom: 2vh;
 }
 
 footer ul li a {
   color: #000000;
   text-decoration: none;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1.4vw;
   transition: 0.3s ease;
 }
 
@@ -403,5 +403,6 @@ footer ul li a:hover {
 }
 
 .copyright{
-  padding-bottom: 30px;
+  padding-bottom: 3vh;
 }
+

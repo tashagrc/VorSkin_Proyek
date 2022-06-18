@@ -10,8 +10,109 @@
 }
 
 body{
-  font-family: 'Avenir Next LT Pro';
+  font-family: 'Quicksand';
   color: #000000;
+}
+
+header{
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100vw;
+}
+
+.navbar-container{
+  width: 100%;
+  background-color: #FDFDFA;
+}
+
+#header-up{
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
+
+/*title vorskin*/
+#header-up #vorskin{
+  font-family: 'Avenir Next LT Pro';
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3vw;
+  margin-left: 45%;
+} 
+
+/*link login dan subscribe*/
+#header-up #account{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 5%;
+}
+
+#header-up #account li{
+  display: inline-block;
+  padding: 0 0.8vw;
+  list-style: none;
+  margin: 2vh;
+}
+
+#header-up #account li a{
+  text-decoration: none;
+  color:#2F2F2F;
+  transition: 0.3s ease;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.2vw;
+}
+
+#header-up #account li a:hover {
+  color: #76A2CB;
+}
+
+/*navbar di bawah*/
+nav #navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  list-style: none;
+}
+
+nav #navbar li{
+  display: inline-block;
+  padding: 0 1vw;
+  list-style: none;
+  margin: 2vh;
+}
+
+nav #navbar li a{
+  text-decoration: none;
+  color:#2F2F2F;
+  transition: 0.3s ease;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.4vw;
+}
+
+nav #navbar li a:hover {
+  color: #76A2CB;
+  transition: 0.3 ease;
+}
+
+nav #navbar a.active{
+  color: #76A2CB;
+  transition: 0.3 ease;
+}
+
+/*content*/
+
+.content{
+  font-family: 'Avenir Next LT Pro';
 }
 
 .product-container {
@@ -60,6 +161,86 @@ h3{
 p{
   font-weight: 400;
   font-size: 16px;
+}
+
+
+footer{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+  background-color: #FDFDFA;
+  color: #000000;
+  padding-top: 6vh;
+  padding-left: 10vw;
+  width: 100vw;
+}
+
+.container{
+  display: flex;
+}
+
+footer #brand {
+  flex-grow: 1;
+  flex-basis: 90%;
+  padding-right: 20vw;
+}
+
+footer #explore{
+  flex-grow: 1;
+  flex-basis: 60%;
+}
+
+footer #contact{
+  flex-grow: 1;
+  flex-basis: 60%;
+}
+
+footer #brand h1{
+  font-family: 'Avenir Next LT Pro';
+  font-size: 3vw;
+  font-weight: 400;
+  padding-bottom: 3vh;
+}
+
+footer h1{
+  font-weight: 700;
+  font-size: 1.7vw;
+  line-height: 2.6vw;
+  margin-bottom: 2vh;
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 1.4vw;
+  line-height: 2.6vw;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer ul li {
+  padding-bottom: 2vh;
+}
+
+footer ul li a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.4vw;
+  transition: 0.3s ease;
+}
+
+footer ul li a:hover {
+  color: #76A2CB;
+}
+
+.bold{
+  font-weight: 700;
+}
+
+.copyright{
+  padding-bottom: 3vh;
 }
 
 

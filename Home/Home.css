@@ -33,6 +33,8 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 1vw;
+  padding-bottom:1vw;
 }
 
 /*title vorskin*/
@@ -41,7 +43,7 @@ header{
   text-align: center;
   font-style: normal;
   font-weight: 400;
-  font-size: 36px;
+  font-size: 3vw;
   margin-left: 45%;
 } 
 
@@ -55,7 +57,7 @@ header{
 
 #header-up #account li{
   display: inline-block;
-  padding: 0 10px;
+  padding: 0 0.8vw;
   list-style: none;
   margin: 2vh;
 }
@@ -66,7 +68,8 @@ header{
   transition: 0.3s ease;
   font-style: normal;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 1.2vw;
+  transition: 0.3 ease;
 }
 
 #header-up #account li a:hover {
@@ -95,7 +98,7 @@ nav #navbar li a{
   transition: 0.3s ease;
   font-style: normal;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1.4vw;
 }
 
 nav #navbar li a:hover {
@@ -114,7 +117,7 @@ nav #navbar a.active{
   color:#ffffff;
   text-align: center;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 1.4vw;
   width: 100vw;
 }
 
@@ -482,23 +485,22 @@ footer #contact{
 
 footer #brand h1{
   font-family: 'Avenir Next LT Pro';
-  font-size: 36px;
+  font-size: 3vw;
   font-weight: 400;
   padding-bottom: 3vh;
 }
 
 footer h1{
   font-weight: 700;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 1.7vw;
+  line-height: 2.6vw;
   margin-bottom: 2vh;
 }
 
 footer p {
-  line-height: 25px;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 1.4vw;
+  line-height: 2.6vw;
 }
 
 footer ul {
@@ -513,7 +515,7 @@ footer ul li a {
   color: #000000;
   text-decoration: none;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1.4vw;
   transition: 0.3s ease;
 }
 
