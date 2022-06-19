@@ -38,15 +38,17 @@
             <div class="container-content">
                 <div class="title"><img src="../Images/login-logo.png"></div>
     
-                <form>
+                <form id="loginform" method="POST">
                     <div class="user-details">
                         <div class="input-container">
-                            <label for="email">Email</label><br>
-                            <input type="text" id="email" name="email" required>
+                            <label for="login-email">Email</label><br>
+                            <p id="errorLoginEmail" class="error"></p>
+                            <input type="text" id="login-email" name="login-email" required>
                         </div>
                         <div class="input-container">
-                            <label for="pwd">Password</label><br>
-                            <input type="password" id="pwd" name="pwd" required>
+                            <label for="login-pwd">Password</label><br>
+                            <p id="errorLoginPwd" class="error"></p>
+                            <input type="password" id="login-pwd" name="login-pwd" required>
                         </div>
                         
                     </div>
