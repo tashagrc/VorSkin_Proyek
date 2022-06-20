@@ -142,7 +142,7 @@ img{
 }
 
 .history #history-isi{
-  font-size: 1,2vw;
+  font-size: 1.2vw;
   font-family: 'Quicksand';
   color: #ffffff;
   font-weight: lighter;
@@ -160,7 +160,7 @@ img{
 }
 
 .mission #mission-isi{
-  font-size: 1,2vw;
+  font-size: 1.2vw;
   font-family: 'Quicksand';
   color: #ffffff;
   font-weight: lighter;
@@ -171,8 +171,6 @@ img{
 .mission img{
   float:right; 
   margin: -8vw 10vw 5vw 0.25vw;
-  width :405px;
-  height:393px;
 }
 
 /* vision */
@@ -186,7 +184,7 @@ img{
 
 .vision #vision-isi{
   text-align: left;
-  font-size: 1,2vw;
+  font-size: 1.2vw;
   font-family: 'Quicksand';
   color: #ffffff;
   font-weight: lighter;
@@ -197,10 +195,6 @@ img{
 .vision img{
   float:left; 
   margin: -8vw 3vw 0vw 10vw;
-  max-width:100%;
-  height:auto;
-  width: 356;
-  height: 481;
 }
 
 .content{

@@ -6,7 +6,6 @@
     <title>Login | Vorskin</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='Form.css'>
-    <script src='Form.js'></script>
 </head>
 <body>
     
@@ -31,6 +30,7 @@
         </div>
     </header>
 
+    <!-- no validation, validation in subsribe form -->
     <section id="login">
         <div>
             <h1 class="title-vorskin">VORSKIN</h1>
@@ -42,12 +42,10 @@
                     <div class="user-details">
                         <div class="input-container">
                             <label for="login-email">Email</label><br>
-                            <p id="errorLoginEmail" class="error"></p>
                             <input type="text" id="login-email" name="login-email" required>
                         </div>
                         <div class="input-container">
                             <label for="login-pwd">Password</label><br>
-                            <p id="errorLoginPwd" class="error"></p>
                             <input type="password" id="login-pwd" name="login-pwd" required>
                         </div>
                         
