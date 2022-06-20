@@ -70,7 +70,7 @@ window.onload = ()=>{
         validateFirstName()
         validateLastName()
         validateEmail()
-        // validateAddress()
+        validateAddress()
         validateAgreement()
         validatePhone()
         validatePassword()

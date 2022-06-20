@@ -250,7 +250,7 @@ form .btn input:hover{
     font-size: 20px;
 }
 
-#register .user-details #address .input-container input{
+#register .user-details .address-column .input-container input{
     width: 97%;
     height: 6vh;
     outline: none;
