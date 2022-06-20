@@ -110,6 +110,7 @@ nav #navbar a.active{
   transition: 0.3 ease;
 }
 
+/*content about*/
 body{
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../Images/about_background.png');;
   background-size:cover;
@@ -232,8 +233,8 @@ footer{
   margin-bottom: 0;
   background-color: #000000;
   color: #ffffff;
-  padding-top: 60px;
-  padding-left: 103px;
+  padding-top: 6vh;
+  padding-left: 10vw;
   width:100vw;
 }
 
@@ -244,7 +245,7 @@ footer{
 footer #brand {
   flex-grow: 1;
   flex-basis: 90%;
-  padding-right: 200px;
+  padding-right: 20vw;
 }
 
 footer #explore{
@@ -259,23 +260,22 @@ footer #contact{
 
 footer #brand h1{
   font-family: 'Avenir Next LT Pro';
-  font-size: 36px;
+  font-size: 3vw;
   font-weight: 400;
-  padding-bottom: 30px;
+  padding-bottom: 3vh;
 }
 
 footer h1{
   font-weight: 700;
-  font-size: 20px;
-  line-height: 30px;
-  margin-bottom: 15px;
+  font-size: 1.7vw;
+  line-height: 2.6vw;
+  margin-bottom: 2vh;
 }
 
 footer p {
-  line-height: 25px;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 1.4vw;
+  line-height: 2.6vw;
 }
 
 footer ul {
@@ -283,14 +283,14 @@ footer ul {
 }
 
 footer ul li {
-  padding-bottom: 10px;
+  padding-bottom: 2vh;
 }
 
 footer ul li a {
   color: #ffffff;
   text-decoration: none;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1.4vw;
   transition: 0.3s ease;
 }
 
@@ -303,5 +303,5 @@ footer ul li a:hover {
 }
 
 .copyright{
-  padding-bottom: 30px;
+  padding-bottom: 3vh;
 }
