@@ -1,4 +1,5 @@
 window.onload = ()=>{
+
     // halaman subscribe
     let subsform = document.getElementById("subsform")
     let firstname = document.getElementById("fname")
@@ -23,14 +24,6 @@ window.onload = ()=>{
     let errorNews = document.getElementById("errorNews")
     let errorTerms = document.getElementById("errorTerms")
 
-    // halaman login
-
-    let loginform = document.getElementById("loginform")
-    let loginemail = document.getElementById("login-email")
-    let loginpwd = document.getElementById("login-pwd")
-
-    let errorLoginEmail = document.getElementById("errorLoginEmail")
-    let errorLoginPwd = document.getElementById("errorLoginPwd")
 
     // error subscribe variable
     let errFirstName = []
@@ -173,9 +166,10 @@ window.onload = ()=>{
         }
         else 
         {
-            alert('Subscribed! Welcome to space!')
+            alert('Subscribed! Thank you for registering')
         }
     })
+
 
     function isEmpty(value)
     {
@@ -184,6 +178,8 @@ window.onload = ()=>{
             return true
         } return false
     }
+
+    // subscribe function
 
     function validateFirstName()
     {
