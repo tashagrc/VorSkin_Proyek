@@ -282,12 +282,13 @@ window.onload = ()=>{
 
     function validateConfirmPassword()
     {
-        let value = confirmpassword.value.trim()
-        if(isEmpty(value))
+        let valueConfirm = confirmpassword.value.trim()
+        let valuePassword = password.value.trim()
+        if(isEmpty(valueConfirm))
         {
             errCpwd.push("Confirm Password field must be filled")
         }
-        else if(password != confirmpassword)
+        else if(valuePassword != valueConfirm)
         {
             errCpwd.push("Passwords did not match")
         }

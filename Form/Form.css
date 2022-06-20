@@ -282,6 +282,11 @@ form .btn input:hover{
     line-height: 18px;
 }
 
+.error{
+  color: red;
+  font-size: 0.5vw;
+}
+
 /*footer*/
 footer{
     display: flex;
