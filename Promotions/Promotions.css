@@ -123,7 +123,7 @@ nav #navbar a.active{
   text-align: center;
   font-style: normal;
   font-weight: 400;
-  font-size: 36px;
+  font-size: 3vw;
 } 
 
 /* first promotion  */
@@ -133,7 +133,7 @@ nav #navbar a.active{
   text-align: left;
   font-style: normal;
   font-weight: bolder;
-  font-size: 32px;
+  font-size: 2vw;
 }
 
 .first #lemon{
@@ -141,7 +141,7 @@ nav #navbar a.active{
   text-align: left;
   font-style: normal;
   font-weight: bolder;
-  font-size: 32px;
+  font-size: 2vw;
 }
 
 .first #upto-lemon{
@@ -150,25 +150,25 @@ nav #navbar a.active{
   text-align: left;
   font-style: normal;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 3.5vw;
 }
 
 .first #mini-product{
-  font-size: 20px;
+  font-size: 1.5vw;
   font-weight: bold;
   color: #76A2CB;
 }
 
 button{
   font-family: 'Montserrat';
-  font-size: 20px;
+  font-size: 1.5vw;
   color: #ffffff;
   text-align: center;
   font-style: normal;
   font-weight: bold;
   background: #76A2CB;
   border-radius: 10px;
-  padding: 12px 20px;
+  padding: 1.8vh 1.5vw;
   border: none;
 }
 
@@ -190,7 +190,7 @@ button:hover{
   text-align: left;
   font-style: normal;
   font-weight: bolder;
-  font-size: 32px;
+  font-size: 2vw;
   margin-left: 10%;
 }
 
@@ -199,7 +199,7 @@ button:hover{
   text-align: left;
   font-style: normal;
   font-weight: bolder;
-  font-size: 32px;
+  font-size: 2vw;
   margin-left: 10%;
 }
 
@@ -209,12 +209,12 @@ button:hover{
   text-align: left;
   font-style: normal;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 2vw;
   margin-left: 10%;
 }
 
 .second #promo24{
-  font-size: 20px;
+  font-size: 1.5vw;
   font-weight: bold;
   color: #76A2CB;
   margin-left: 10%;
@@ -226,7 +226,7 @@ button:hover{
   text-align: left;
   font-style: normal;
   font-weight: bolder;
-  font-size: 32px;
+  font-size: 2vw;
 }
 
 .first #promo32{
@@ -235,11 +235,11 @@ button:hover{
   text-align: left;
   font-style: normal;
   font-weight: bolder;
-  font-size: 30px;
+  font-size: 2vw;
 }
 
 .first #terms{
-  font-size: 20px;
+  font-size: 1.5vw;
   font-weight: bold;
   color: #76A2CB;
 }
@@ -250,7 +250,7 @@ button:hover{
   text-align: left;
   font-style: normal;
   font-weight: bolder;
-  font-size: 32px;
+  font-size: 2vw;
   margin-left: 10%;
 }
 
@@ -259,13 +259,13 @@ button:hover{
   text-align: left;
   font-style: normal;
   font-weight: bolder;
-  font-size: 32px;
+  font-size: 2vw;
   margin-left: 10%;
   color: #D2B82E;
 }
 
 .second #promo43{
-  font-size: 20px;
+  font-size: 1.5vw;
   font-weight: bold;
   color: #76A2CB;
   margin-left: 10%;
@@ -273,39 +273,39 @@ button:hover{
 
 /*margin div*/
 .d1{
-  margin: 225px;
+  margin: 15vh;
 }
 
 .d2{
-  margin: 190px;
+  margin: 20vh;
 }
 
 .d3{
-  margin: 100px;
+  margin: 10vh;
 }
 
 /*gambar content*/
 .first img{
   float:left; 
-  margin: 0 30px 4px 0;
+  margin: 0 2vw 0.5vw 0;
 }
 
 .first hr{
   size: 0;
-  width: 523.02px;
+  width: 25vw;
   border: 0; 
   border-top: 1px solid #76A2CB;
 }
 
 .second img{
   float:right; 
-  margin: 70px 0px 0px 0;
+  margin: 10vh 0px 0px 0;
 }
 
 .second #hs1{
   margin: 0px 10%;
   size: 0;
-  width: 454.02px;
+  width: 25vw;
   border: 0; 
   border-top: 1px solid #76A2CB;
 }
@@ -313,7 +313,7 @@ button:hover{
 .second #hs2{
   margin: 0px 10%;
   size: 0;
-  width: 438px;
+  width: 25vw;
   border: 0; 
   border-top: 1px solid #76A2CB;
 }
@@ -321,7 +321,7 @@ button:hover{
 /*line*/
 #line1{
   size:0px;
-  width:523.02px;
+  width:25vw;
   border: 0; 
   border-top: 1px solid #76A2CB;
 }
