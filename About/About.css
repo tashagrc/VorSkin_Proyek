@@ -124,12 +124,12 @@ img{
 
 .about #title{
     color: #ffffff;
-    letter-spacing: 0,15vw;
+    letter-spacing: 0.15vw;
     font-size: 3.25vw;
     font-weight: bold;
     font-family: 'Montserrat';
-    margin-top: 2,5vw;
-    margin-left: 70vw;
+    /* margin-top: 2.5vw;
+    margin-left: 70vw; */
 }
 
 /* history */
@@ -138,7 +138,7 @@ img{
   font-family: 'Montserrat';
   color: #ffffff;
   font-weight: bold;
-  margin-left: 12vw;
+  /* margin-left: 12vw; */
 }
 
 .history #history-isi{
@@ -146,8 +146,8 @@ img{
   font-family: 'Quicksand';
   color: #ffffff;
   font-weight: lighter;
-  margin-left: 12vw;
-  margin-right: 12vw;
+  /* margin-left: 12vw;
+  margin-right: 12vw; */
 }
 
 /* our mission */
@@ -156,7 +156,7 @@ img{
   font-family: 'Montserrat';
   color: #ffffff;
   font-weight: bold;
-  margin-left: 12vw;
+  /* margin-left: 12vw; */
 }
 
 .mission #mission-isi{
@@ -164,15 +164,15 @@ img{
   font-family: 'Quicksand';
   color: #ffffff;
   font-weight: lighter;
-  margin-left: 12vw;
-  margin-right: 12vw;
+  /* margin-left: 12vw;
+  margin-right: 12vw; */
 }
 
 .mission img{
-  float:right; 
-  margin: -8vw 10vw 5vw 0.25vw;
-  max-width: 405px;
-  max-height: 393px;
+  /* float:right; 
+  margin: -8vw 10vw 5vw 0.25vw; */
+  /* max-width: 405px;
+  max-height: 393px; */
 }
 
 /* vision */
@@ -181,7 +181,7 @@ img{
   font-family: 'Montserrat';
   color: #ffffff;
   font-weight: bold;
-  margin-left: 12vw;
+  /* margin-left: 12vw; */
 }
 
 .vision #vision-isi{
@@ -190,24 +190,24 @@ img{
   font-family: 'Quicksand';
   color: #ffffff;
   font-weight: lighter;
-  margin-left: 12vw;
-  margin-right: 10vw;
+  /* margin-left: 12vw;
+  margin-right: 10vw; */
 }
 
 .vision img{
-  float:left; 
-  margin: -8vw 3vw 0vw 10vw;
-  max-width: 356px;
-  max-height: 481px;
+  /* float:left;  */
+  /* margin: -8vw 3vw 0vw 10vw; */
+  /* max-width: 356px;
+  max-height: 481px; */
 }
 
 .content{
-  margin-top: 10vh;
-  margin-bottom: 50vh;
+  /* margin-top: 10vh;
+  margin-bottom: 50vh; */
 }
 
 /*margin*/
-.d1{
+/* .d1{
   margin: 2.5vw;
 }
 
@@ -221,7 +221,7 @@ img{
 
 .d4{
   margin:20vw;
-}
+} */
 
 /*footer*/
 
