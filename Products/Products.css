@@ -138,13 +138,13 @@ nav #navbar a.active{
   color: #000000;
 }
 
-h1{
+.content h1{
   font-weight: 700;
   font-size: 3vw;
   margin-top: 10vh;
 }
 
-h3{
+.content h3{
   font-weight: 400;
   font-size: 2vw;
 }
@@ -161,7 +161,7 @@ h3{
   color: #60A0DB;
 }
 
-p{
+.content p{
   font-weight: 400;
   font-size: 1.5vw;
 }
