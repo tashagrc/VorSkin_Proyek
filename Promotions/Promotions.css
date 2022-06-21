@@ -110,10 +110,37 @@ nav #navbar a.active{
   transition: 0.3 ease;
 }
 
+/*isi promosi*/
+
 /*margin content container*/
 .content{
-  margin-bottom: 50vh;
+  margin-bottom: 20vh;
   margin-top: 10vh;
+}
+
+/*masukin gambar*/
+.sidebyside .columns.img1{
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('../Images/promo_lemon.png');
+}
+
+.sidebyside .columns.img2{
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('../Images/promo_toner_hydrate.png');
+}
+
+.sidebyside .columns.img3{
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('../Images/promo_bca.png');
+}
+
+.sidebyside .columns.img4{
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('../Images/promo_summer.png');
 }
 
 /*content / isi promosi*/
@@ -271,19 +298,6 @@ button:hover{
   margin-left: 10%;
 }
 
-/*margin div*/
-.d1{
-  margin: 15vh;
-}
-
-.d2{
-  margin: 20vh;
-}
-
-.d3{
-  margin: 10vh;
-}
-
 /*gambar content*/
 .first img{
   float:left; 
@@ -327,6 +341,7 @@ button:hover{
 }
 
 
+/*footer */
 footer{
   display: flex;
   flex-direction: column;
