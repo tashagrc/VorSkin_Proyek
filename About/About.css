@@ -112,116 +112,121 @@ nav #navbar a.active{
 
 /*content about*/
 body{
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../Images/about_background.png');;
+  background: linear-gradient(rgba(53, 51, 51, 0.7), rgba(53, 51, 51, 0.7)), url('../Images/about_background.png');;
   background-size:cover;
   background-repeat: no-repeat;
 }
 
-img{
-  width: 100%;
-  height: auto;
-}
-
-.about #title{
+.about h1{
     color: #ffffff;
     letter-spacing: 0.15vw;
-    font-size: 3.25vw;
+    font-size: 4vw;
     font-weight: bold;
     font-family: 'Montserrat';
-    /* margin-top: 2.5vw;
-    margin-left: 70vw; */
+    text-align: right;
+    margin-bottom: 10vh;
 }
 
-/* history */
-.history #history-title{
-  font-size: 2vw;
+/* tulisan in general content */
+.content h3{
+  font-size: 3vw;
   font-family: 'Montserrat';
   color: #ffffff;
   font-weight: bold;
-  /* margin-left: 12vw; */
+  margin-bottom: 2vh;
 }
 
-.history #history-isi{
-  font-size: 1.2vw;
+.content p{
+  font-size: 1.5vw;
   font-family: 'Quicksand';
   color: #ffffff;
   font-weight: lighter;
-  /* margin-left: 12vw;
-  margin-right: 12vw; */
-}
-
-/* our mission */
-.mission #mission-title{
-  font-size: 2vw;
-  font-family: 'Montserrat';
-  color: #ffffff;
-  font-weight: bold;
-  /* margin-left: 12vw; */
-}
-
-.mission #mission-isi{
-  font-size: 1.2vw;
-  font-family: 'Quicksand';
-  color: #ffffff;
-  font-weight: lighter;
-  /* margin-left: 12vw;
-  margin-right: 12vw; */
-}
-
-.mission img{
-  /* float:right; 
-  margin: -8vw 10vw 5vw 0.25vw; */
-  /* max-width: 405px;
-  max-height: 393px; */
-}
-
-/* vision */
-.vision #vision-title{
-  font-size: 2vw;
-  font-family: 'Montserrat';
-  color: #ffffff;
-  font-weight: bold;
-  /* margin-left: 12vw; */
-}
-
-.vision #vision-isi{
-  text-align: left;
-  font-size: 1.2vw;
-  font-family: 'Quicksand';
-  color: #ffffff;
-  font-weight: lighter;
-  /* margin-left: 12vw;
-  margin-right: 10vw; */
-}
-
-.vision img{
-  /* float:left;  */
-  /* margin: -8vw 3vw 0vw 10vw; */
-  /* max-width: 356px;
-  max-height: 481px; */
 }
 
 .content{
-  /* margin-top: 10vh;
-  margin-bottom: 50vh; */
+  padding-top: 10vh;
+  padding-bottom: 20vh;
+  margin: auto;
+  width: 70%;
 }
 
-/*margin*/
-/* .d1{
-  margin: 2.5vw;
+/*kasih jarak per bagian*/
+.part{
+  margin-bottom: 8vh;
 }
 
-.d2{
-  margin: 0.5vw;
+/*align text vertically*/
+.text-container{
+  padding-top: 10vh;
 }
 
-.d3{
-  margin: 10vw;
+/*gambar dan tulisan sebelahan*/
+.sidebyside {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.d4{
-  margin:20vw;
-} */
+.sidebyside .columns{
+  flex: 0 0 auto;
+  width: 55%;
+}
+
+
+.sidebyside .columns.img1{
+  margin-left: auto; /*gambar rata kanan*/
+  margin-right: 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 27vw;
+  height: 26vw;
+  background-image: url('../Images/about_rabbit.png');
+}
+
+.sidebyside .columns.img2{
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 24vw;
+  height: 32vw;
+  background-image: url('../Images/about_face.png');
+}
+
+.sidebyside .columns.side.vis{
+  margin-left: auto; /*tulisan rata kanan*/
+  margin-right: 0;
+}
+
+/*responsive buat sidebyside gambar tulisan*/
+@media screen and (max-width: 800px) {
+  .sidebyside {
+    flex-flow: row wrap;
+  }
+
+  .sidebyside .columns.img1{
+    display: block;
+    order: 1;
+    background-size: contain;
+    margin: auto;
+  }
+
+  .sidebyside .columns.img2{
+    display: block;
+    order: 1;
+    background-size: contain;
+    margin: auto;
+  }
+
+  .sidebyside .columns.side{
+    display: block;
+    order: 2;
+    width: 100%;
+  }
+
+  /*agar tidak ada jarak vertical align*/
+  .text-container{
+    padding-top: 0;
+  }
+}
+
 
 /*footer*/
 
