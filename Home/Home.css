@@ -68,7 +68,7 @@ header{
   transition: 0.3s ease;
   font-style: normal;
   font-weight: 600;
-  font-size: 1.2vw;
+  font-size: 1.4vw;
   transition: 0.3 ease;
 }
 
@@ -181,16 +181,16 @@ nav #navbar a.active{
 .text-slide h1{
   font-family: 'Montserrat';
   font-weight: 600;
-  font-size: 3vw;
-  line-height: 3.5vw;
+  font-size: 4vw;
+  line-height: 4.5vw;
   color: #FFFFFF;
 }
 
 .text-slide p{
   font-family: 'Montserrat';
   font-weight: 500;
-  font-size: 1.7vw;
-  line-height: 2vw;
+  font-size: 2vw;
+  line-height: 2.5vw;
   color: #FFFFFF;
 }
 
@@ -267,6 +267,7 @@ nav #navbar a.active{
   position: relative;
 }
 
+/*slide 4*/
 #slide4{
   position: absolute;
   top: 50%;
@@ -309,6 +310,7 @@ nav #navbar a.active{
 .pict {
   display: grid;
   grid-template-columns: auto auto;
+  column-gap: 5vw;
 }
 
 /*image yg bawah container buat posisi row columnya*/
@@ -391,7 +393,7 @@ nav #navbar a.active{
 
 #part2 p{
   font-weight: 500;
-  font-size: 2.5vw;
+  font-size: 2vw;
 }
 
 /*align picture yg bawah verticaly*/
@@ -416,7 +418,7 @@ nav #navbar a.active{
   font-family: 'Avenir Next LT Pro';
   font-style: normal;
   font-weight: 700;
-  font-size: 3.7vw;
+  font-size: 4vw;
 }
 
 #part1 .pic-title h1::after{
@@ -432,7 +434,7 @@ nav #navbar a.active{
   font-family: 'Quicksand';
   font-style: normal;
   font-weight: 500;
-  font-size: 2vw;
+  font-size: 3vw;
 }
 
 #part2 .pic-title{
@@ -448,6 +450,12 @@ nav #navbar a.active{
 
 .pic-title{
   margin-bottom: 5vh;
+}
+
+/*responsive image*/
+.pict img{
+  width: 100%;
+  height: auto;
 }
 
 /*footer*/
