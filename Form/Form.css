@@ -151,7 +151,7 @@ nav .navbar li a:hover {
 
 .user-details .input-container label{
     font-weight: 600;
-    font-size: 1.5vw;
+    font-size: 1vw;
 }
 
 /*button*/
@@ -167,6 +167,7 @@ form .btn input{
     color: #ffffff;
     margin-top: 7vh;
     margin-bottom: 5vh;
+    font-size: 1vw;
 }
 
 form .btn input:hover{
@@ -196,25 +197,28 @@ form .btn input:hover{
     border-radius: 10px;
     border: none;
     padding: 1vh;
-    font-size: 1.5vw;
+    font-size: 1vw;
     margin-top: 1vh;
 }
 
 /*tulisan lain*/
 #login .container-content p{
     font-weight: 700;
-    font-size: 1.5vw;
+    font-size: 1vw;
     text-align: center;
 }
 
 /*register*/
 #register{
     background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url('../Images/subs-background.png');
-    height: 180vh;
+    height: 100%;
     justify-content: center;
     align-items: center;
     display: flex;
     width: 100vw;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+    background-size: cover;
 }
 
 /*agar bisa 2 kolom*/
@@ -233,21 +237,21 @@ form .btn input:hover{
     border-radius: 10px;
     border: none;
     padding: 1vh;
-    font-size: 1.5vw;
+    font-size: 1vw;
     margin-top: 1vh;
 }
 
 #register .container-content p{
     text-align: left;
     font-weight: 600;
-    font-size: 1.5vw;
+    font-size: 1vw;
     line-height: 2vw;
     margin-bottom: 1vh;
 }
 
 #register .container-content h3{
     font-weight: 700;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 
 #register .user-details .address-column .input-container input{
@@ -257,13 +261,13 @@ form .btn input:hover{
     border-radius: 10px;
     border: none;
     padding: 1vh;
-    font-size: 1.5vw;
+    font-size: 1vw;
     margin-top: 1vh;
 }
 
 #register h5{
     font-weight: 700;
-    font-size: 1.5vw;
+    font-size: 1vw;
     line-height: 1vw;
     margin-bottom: 1vh;
 }
@@ -278,13 +282,19 @@ form .btn input:hover{
 
 #register .tick-container label{
     font-weight: 600;
-    font-size: 1.5vw;
+    font-size: 1vw;
     line-height: 0.9vw;
 }
 
 .error{
   color: red;
-  font-size: 1vw;
+  font-size: 0.8vw;
+}
+
+@media screen and (max-width: 800px) {
+  #register .column{
+    width: 100%;
+  }
 }
 
 /*footer*/
