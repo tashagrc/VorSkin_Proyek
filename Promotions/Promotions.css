@@ -114,63 +114,103 @@ nav #navbar a.active{
 
 /*margin content container*/
 .content{
-  margin-bottom: 20vh;
-  margin-top: 10vh;
+  padding-bottom: 20vh;
+  padding-top: 10vh;
   font-family: 'Montserrat';
+  width: 100vw;
+}
+
+.part{
+  margin-bottom: 10vh;
+}
+
+/*tampilan side by side gambar dgn tulisan*/
+.sidebyside {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100vw;
+}
+
+.sidebyside .columns{
+  flex: 0 0 auto;
+  width: 40%;
+}
+
+/*text kiri, tapi mepet ke gambar yg kanan*/
+.sidebyside .columns.side.left{
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.sidebyside .columns.side.right{
+  padding-left: 2vw;
+}
+
+/*align text vertically*/
+.text-container{
+  padding-top: 5vh;
 }
 
 /*masukin gambar*/
 .sidebyside .columns.img1{
   background-repeat: no-repeat;
   background-size: contain;
+  width:45vw;
+  height: 32vw;
   background-image: url('../Images/promo_lemon.png');
 }
 
 .sidebyside .columns.img2{
+  margin-right: 0;
   background-repeat: no-repeat;
   background-size: contain;
+  width: 58vw;
+  height: 32vw;
   background-image: url('../Images/promo_toner_hydrate.png');
 }
 
 .sidebyside .columns.img3{
   background-repeat: no-repeat;
   background-size: contain;
+  width: 47vw;
+  height: 31vw;
   background-image: url('../Images/promo_bca.png');
 }
 
 .sidebyside .columns.img4{
+  margin-right: 0;
   background-repeat: no-repeat;
   background-size: contain;
+  width: 56vw;
+  height: 36vw;
   background-image: url('../Images/promo_summer.png');
 }
 
 /*title promotion*/
 
 /*general font size*/
-h1{
+.content h1{
   font-family: 'Avenir Next LT Pro';
   color: #76A2CB;
   text-align: center;
   font-style: normal;
   font-weight: 400;
-  font-size: 3vw;
+  font-size: 3.5vw;
 } 
 
-h2{
-  text-align: left;
+.content h2{
   font-style: normal;
   font-weight: bold;
-  font-size: 3.5vw;
+  font-size: 3vw;
 }
 
-h3{
-  font-size: 2vw;
-  text-align: left;
+.content h3{
+  font-size: 2.5vw;
   font-style: normal;
   font-weight: bolder;
 }
 
-p{
+.content p{
   font-size: 1.5vw;
   font-weight: bold;
 }
@@ -199,6 +239,7 @@ button{
   border-radius: 10px;
   padding: 1.8vh 1.5vw;
   border: none;
+  margin-top: 3vh;
 }
 
 button:hover{
@@ -218,6 +259,75 @@ hr{
   width: 25vw;
   border: 0; 
   border-top: 1px solid #76A2CB;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+/*responsive buat sidebyside gambar tulisan*/
+@media screen and (max-width: 800px) {
+  .sidebyside {
+    flex-flow: row wrap;
+  }
+
+  .sidebyside .columns.img1{
+    display: block;
+    order: 1;
+    background-size: contain;
+    margin: auto;
+    border-radius: 10px;
+  }
+
+  .sidebyside .columns.img2{
+    display: block;
+    order: 1;
+    background-size: contain;
+    margin: auto;
+    border-radius: 10px;
+  }
+
+  .sidebyside .columns.img3{
+    display: block;
+    order: 1;
+    background-size: contain;
+    margin: auto;
+    border-radius: 10px;
+  }
+
+  .sidebyside .columns.img4{
+    display: block;
+    order: 1;
+    background-size: contain;
+    margin: auto;
+    border-radius: 10px;
+  }
+
+  .sidebyside .columns.side{
+    display: block;
+    order: 2;
+    width: 100%;
+  }
+
+  /*agar tidak ada jarak vertical align*/
+  .text-container{
+    padding-top: 0;
+    text-align: center;
+  }
+
+  .text-container h3{
+    text-align: center;
+  }
+
+  .text-container h2{
+    text-align: center;
+  }
+
+  .text-container p{
+    text-align: center;
+  }
+
+  .text-container hr{
+    margin: auto;
+  }
 }
 
 
